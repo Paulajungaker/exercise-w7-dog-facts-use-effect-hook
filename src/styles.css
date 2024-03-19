@@ -1,1 +1,39 @@
 /* Start Adding your CSS here */
+
+.dogContainer {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  background-image: url("./assets/dogphoto.avif");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.dogFacts {
+  border: 10px dotted #6c584c;
+  margin: 100px 15px 0 15px;
+  font-size: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 30px 25px;
+  background-color: #ffe5ec;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+button {
+  margin-top: 30px;
+  padding: 15px 20px;
+  font-size: 20px;
+  background-color: #fcf6bd;
+  border: none;
+  border-radius: 5px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}

@@ -30,9 +30,16 @@ export const App = () => {
     fetchDogFact();
   }, []);
 
+  const handleButtonClick = () => {
+    fetchDogFact();
+  };
+
   return (
-    <div className="App">
-      <DogFact fact={dogFact} />
+    <div className="dogContainer">
+      <div className="dogFacts">
+        <DogFact fact={dogFact} />
+      </div>
+      <button onClick={handleButtonClick}>New dog fact</button>
     </div>
   );
 };
